@@ -55,6 +55,30 @@
   .nav-link:hover,
   .nav-link:focus,
   .contacts-link:hover,
-  .contacts-link:focus {
+  .contacts-link:focus,
+  .section-first-button:hover,
+  .section-first-button:focus {
     color: #404bbf;
   }
+  
+  .section-first {
+    background: #2e2f42;
+  }
+
+  .section-title {
+      font-size: 56px;
+      line-height: 1.07;
+      letter-spacing: 0.02em;
+      text-align: center;
+      color: #ffffff;
+  }
+
+    .section-first-button {
+      font-weight: 500;
+      font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #ffffff;
+        background: #4d5ae5;
+        cursor: pointer;
+    }
